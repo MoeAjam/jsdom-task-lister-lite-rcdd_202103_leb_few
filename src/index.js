@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   txt = document.getElementById('new-task-description');
   btn = document.getElementsByTagName('input')[1];
   taskList = document.getElementById('tasks');
-  btn.addEventListener('click',()=>e {
-    taskList.value = 'sfasf';
-  })
-});
+  btn.addEventListener('click', preventDefault());
+  btn.addEventListener('click', )
+}
