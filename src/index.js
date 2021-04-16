@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let btn = document.getElementsByTagName('input')[1];
   let taskList = document.getElementById('tasks');
   btn.addEventListener('click', fucntion(e){
-    tasklist.innerHTML += "<li>sdfs</li>";
+    taskList.innerHTML += "<li>sdfs</li>";
     event.preventDefault();
   }
 }
